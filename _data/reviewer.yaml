@@ -1,9 +1,24 @@
+- venue: "ICLR"
+  years:
+    - year: 2025
+      url: https://iclr.cc/
+
+- venue: "KDD"
+  years:
+    - year: 2025
+      url: https://kdd2025.kdd.org/
+
+- venue: "NeurIPS"
+  years:
+    - year: 2024
+      url: https://neurips.cc/Conferences/2024
+    
 - venue: "Scientific Reports"
   years:
     - year: 2023
       url: https://www.nature.com/srep/
 
-- venue: "ICCV Workshop on Adversarial Robustness In the Real World"
+- venue: "ICCV Workshop"
   years:
     - year: 2023
       url: https://iccv23-arow.github.io/
@@ -13,7 +28,7 @@
     - year: 2023
       url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036
 
-- venue: "ICML Workshop on AdvML-Frontiers"
+- venue: "ICML Workshop"
   years:
     - year: 2023
       url: https://advml-frontier.github.io/
