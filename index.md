@@ -30,16 +30,17 @@ title: Home
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
-		<b> &bull; Generalizable multimodal representation learning </b>: foundation models for table recognition (<a href="https://arxiv.org/abs/2403.04822">UniTable</a>, <a href="https://arxiv.org/abs/2311.05565">Table Transformer</a>, <a href="https://arxiv.org/abs/2402.15578">Self-supervised Pretraining</a>), RGB-infrared fusion object tracking (<a href="https://www.sciencedirect.com/science/article/pii/S092359651930342X">DsiamMFT</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8809774">SiamFT</a>), structural health monitoring (<a href="https://www.techno-press.org/content/?page=article&journal=sss&volume=27&num=5&ordernum=7">system identification</a>).
+		<b> &bull; Generalizable multimodal representation learning </b>: foundation models for table recognition (<a href="https://arxiv.org/abs/2403.04822">UniTable</a>, <a href="https://arxiv.org/abs/2311.05565">Table Transformer</a>, <a href="https://arxiv.org/abs/2402.15578">Self-supervised Pretraining</a>), efficient text embedding models (coming soon!), RGB-infrared fusion object tracking (<a href="https://www.sciencedirect.com/science/article/pii/S092359651930342X">DsiamMFT</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8809774">SiamFT</a>), structural health monitoring (<a href="https://www.techno-press.org/content/?page=article&journal=sss&volume=27&num=5&ordernum=7">system identification</a>).
 		<br>
-		<b> &bull; Safe and robust machine learning models </b>: LLM loss landscape (coming soon!), robust CNN design principles (<a href="https://arxiv.org/abs/2308.16258">#1 on RobustBench CIFAR-10</a>), multi-task person tracking (<a href="https://link.springer.com/chapter/10.1007/978-3-031-25056-9_29">SkeleVision</a>), and defending LLM attacks (<a href="https://arxiv.org/abs/2308.07308">LLM Self Defense</a>)
+		<b> &bull; Safe and robust machine learning models </b>: LLM safety landscape (<a href="https://arxiv.org/abs/2405.17374">LLM safety basin</a>), robust CNN design principles (<a href="https://arxiv.org/abs/2308.16258">#1 on RobustBench CIFAR-10</a>), multi-task person tracking (<a href="https://link.springer.com/chapter/10.1007/978-3-031-25056-9_29">SkeleVision</a>), and defending LLM attacks (<a href="https://arxiv.org/abs/2308.07308">LLM Self Defense</a>)
 		<!-- My current work creates next-generation generative AI models that are safe and generalizable, spanning LLMs and VLMs. Previously, my training framework unification research, fusing training paradigms and objectives, produces state-of-the-art (SOTA) first-of-its-kind generalizable approach for document and table understanding. My discovery of fundamental architectural design principles governing the adversarial robustness of deep learning models produces SOTA results (#1 on RobustBench CIFAR-10) and Best Poster Award at BMVC. -->
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
 		I am fortunate to have collaborated with researchers, developers, scientists, and engineers at 
         <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech, 
-		<img class="intro-logo" style="width: 28px; padding-bottom: 3px;" src="/images/ibm.png"> IBM, 
+		<img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/meta.png"> Meta, 
+		<img class="intro-logo" style="width: 28px; padding-bottom: 3px;" src="/images/ibm.png"> IBM Research, 
         <img class="intro-logo" style="width: 33px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Lab, 
 		<img class="intro-logo" style="width: 34px; padding-bottom: 3px;" src="/images/adp.png"> ADP, 
         <img class="intro-logo" style="width: 24px; padding-bottom: 3px;" src="/images/ucla.svg"> UCLA, 
