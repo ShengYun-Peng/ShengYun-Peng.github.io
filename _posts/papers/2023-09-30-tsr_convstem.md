@@ -10,7 +10,7 @@ authors:
   - Xiaojing Wang
   - Raji Balasubramaniyan
   - Duen Horng Chau
-venue: Neural Information Processing Systems (NeurIPS) TRL Workshop
+venue: NeurIPS TRL Workshop
 year: 2023
 url: tsr-convstem
 pdf: https://openreview.net/pdf?id=gs6yfSvwue

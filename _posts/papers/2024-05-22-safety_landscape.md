@@ -9,7 +9,7 @@ authors:
   - Pin-Yu Chen
   - Matthew Hull
   - Duen Horng Chau
-venue: In submission
+venue: NeurIPS
 year: 2024
 url: llm-safety-landscape
 pdf: https://arxiv.org/abs/2405.17374

@@ -14,7 +14,7 @@ authors:
   - Mansi Phute
   - Duen Horng Chau
   - Jason Martin
-venue: British Machine Vision Conference (BMVC)
+venue: BMVC
 year: 2023
 url: /papers/robust-principles
 pdf: https://arxiv.org/abs/2308.16258
