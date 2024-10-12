@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Anthony Peng
+title: ShengYun (Anthony) Peng
 tagline: CS PhD Student at Georgia Tech
 email: speng65@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
