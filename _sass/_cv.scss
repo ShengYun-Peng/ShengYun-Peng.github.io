@@ -26,11 +26,12 @@
 
 #cv-title {
 	margin-bottom: 0rem;
+	// text-align: center;
 }
 
 #cv-title > a, #cv-title > a:hover {
 	color: $dark-gray;
-	font-weight: 600;
+	font-weight: 700;
 	text-decoration: none;
 }
 
@@ -100,6 +101,16 @@
 	display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.cv-right-date {
+	grid-column: kicker !important;
+	// grid-column: 1 / kicker-start !important;
+	text-align: right;
+	font-size: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .cv-description {

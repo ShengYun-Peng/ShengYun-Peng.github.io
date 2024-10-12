@@ -26,13 +26,17 @@ title: Home
 		<!-- <a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a> -->
 	</div>
 	<div>
-		Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research strengthens the generalization and robustness of machine learning, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on: My work has led to award-winning research, published, SOTA
+		Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research strengthens the generalization and robustness of machine learning, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on: 
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
-		<b> &bull; Generalizable multimodal representation learning </b>: foundation models for table recognition (<a href="https://arxiv.org/abs/2403.04822">UniTable</a>, <a href="https://arxiv.org/abs/2311.05565">Table Transformer</a>, <a href="https://arxiv.org/abs/2402.15578">Self-supervised Pretraining</a>), efficient text embedding models (coming soon!), RGB-infrared fusion object tracking (<a href="https://www.sciencedirect.com/science/article/pii/S092359651930342X">DsiamMFT</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8809774">SiamFT</a>), structural health monitoring (<a href="https://www.techno-press.org/content/?page=article&journal=sss&volume=27&num=5&ordernum=7">system identification</a>).
+		<b> &bull; Multimodal representation learning </b>: foundation models for table recognition (<a href="https://arxiv.org/abs/2403.04822">UniTable</a>, <a href="https://arxiv.org/abs/2311.05565">Table Transformer</a>, 
+		<a href="https://arxiv.org/abs/2402.15578">Self-supervised Pretraining</a>), efficient text embedding models (coming soon!), 
+		<!-- RGB-infrared fusion object tracking (<a href="https://www.sciencedirect.com/science/article/pii/S092359651930342X">DsiamMFT</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8809774">SiamFT</a>),  -->
+		and structural health monitoring (<a href="https://www.techno-press.org/content/?page=article&journal=sss&volume=27&num=5&ordernum=7">system identification</a>).
 		<br>
-		<b> &bull; Safe and robust machine learning models </b>: LLM safety landscape (<a href="https://arxiv.org/abs/2405.17374">LLM safety basin</a>), robust CNN design principles (<a href="https://arxiv.org/abs/2308.16258">#1 on RobustBench CIFAR-10</a>), multi-task person tracking (<a href="https://link.springer.com/chapter/10.1007/978-3-031-25056-9_29">SkeleVision</a>), and defending LLM attacks (<a href="https://arxiv.org/abs/2308.07308">LLM Self Defense</a>)
+		<b> &bull; Robust machine learning models </b>: LLM landscape (<a href="https://arxiv.org/abs/2405.17374">LLM safety basin</a>), robust CNN design principles (<a href="https://arxiv.org/abs/2308.16258">#1 on RobustBench CIFAR-10, BMVC Best Poster Award</a>), and multi-task person tracking (<a href="https://link.springer.com/chapter/10.1007/978-3-031-25056-9_29">SkeleVision</a>).
+		 <!-- and defending LLM attacks (<a href="https://arxiv.org/abs/2308.07308">LLM Self Defense</a>) -->
 	</div>
 	<div style="height: 1rem"></div>
 	<div>

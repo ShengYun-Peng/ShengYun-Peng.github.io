@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">ShengYun (Anthony) Peng</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">ShengYun Peng</a></h1>
 
 <!-- <div style="height: 1rem"></div> -->
 <!-- <div>
@@ -15,19 +15,19 @@ jsarr:
 
 <div class="cv-spacer"></div>
 
-<div class="cv-spacer"></div>
+<!-- <div class="cv-spacer"></div> -->
 
 <div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
-			{% if link.cv-group == 1 %}
+			{% if link.id == "home" %}
 				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
-			{% if link.cv-group == 2 %}
+			{% if link.id == "email" %}
 				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
@@ -61,7 +61,7 @@ jsarr:
 {% endif %}
 {% endfor %} -->
 
-## Honors and Awards
+## Awards and Honors
 
 {% for award in site.data.awards %}
 {% include cv/award.html award=award %}
@@ -82,13 +82,6 @@ jsarr:
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-## Invited Talks and Presentations
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include cv/talk.html talk=title %}
 {% endfor %}
 
 ## Press
@@ -119,6 +112,13 @@ jsarr:
 
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
+{% endfor %} -->
+
+<!-- ## Talks and Presentations
+
+{% assign talktitles = site.data.talks | group_by:"title" %}
+{% for title in talktitles %}
+{% include cv/talk.html talk=title %}
 {% endfor %} -->
 
 ## Service

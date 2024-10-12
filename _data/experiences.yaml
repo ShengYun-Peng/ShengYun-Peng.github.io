@@ -12,6 +12,19 @@
   # group-url: https://about.meta.com/
   type: industry
 
+- institution: IBM Research
+  location: "Yorktown Heights, NY"
+  position: Research Scientist Intern
+  # group: Security Solution Lab
+  year: "Feb. 2024 — "
+  year-extra: present
+  # mentors:
+  #   - Pin-Yu Chen
+  # description: "LLM safety"
+  institution-url: https://research.ibm.com/
+  group-url: https://research.ibm.com/
+  type: industry
+
 - institution: Intel
   location: "Hillsboro, OR"
   position: Research Scientist Intern
@@ -25,19 +38,6 @@
   institution-url: https://www.intel.com/content/www/us/en/homepage.html
   # group-url: https://www.intel.com/content/www/us/en/research/security-research.html
   type: industry
-
-# - institution: IBM Research
-#   location: "Armonk, NY"
-#   position: Research Scientist Intern
-#   # group: Security Solution Lab
-#   year: "Feb. 2024 — "
-#   year-extra: present
-#   mentors:
-#     - Pin-Yu Chen
-#   description: "LLM safety"
-#   institution-url: https://research.ibm.com/
-#   group-url: https://research.ibm.com/
-#   type: industry
 
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
