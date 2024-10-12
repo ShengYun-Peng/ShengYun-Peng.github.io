@@ -8,10 +8,10 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">ShengYun (Anthony) Peng</a></h1>
 
-<div style="height: 1rem"></div>
-<div>
+<!-- <div style="height: 1rem"></div> -->
+<!-- <div>
 	My research strengthens the generalization and safety of the generative AI, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on generalizable multimodal representation learning and safe and robust machine learning models.
-</div>
+</div> -->
 
 <div class="cv-spacer"></div>
 
@@ -44,7 +44,7 @@ jsarr:
 {% endfor %}
 {:/}
 
-## Industry Research Experience
+## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -53,13 +53,13 @@ jsarr:
 {% endfor %}
 
 
-## Academic Research Experience
+<!-- ## Academic Research Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 ## Honors and Awards
 
@@ -69,7 +69,6 @@ jsarr:
 
 ## Publications
 
-
 {% assign selectedBoolForBibtex = false %}
 {% assign journal = site.categories.papers %}
 {% for pub in journal %}
@@ -78,7 +77,7 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-## Preprint
+<!-- ## Preprint
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
@@ -92,7 +91,7 @@ jsarr:
 {% include cv/talk.html talk=title %}
 {% endfor %}
 
-<!-- ## Press
+## Press
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
@@ -102,7 +101,7 @@ jsarr:
 
 {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
-{% endfor %} -->
+{% endfor %}
 
 ## Grants and Funding
 
@@ -110,13 +109,13 @@ jsarr:
 {% include cv/fund.html fund=fund %}
 {% endfor %}
 
-<!-- ## Interactive Articles
+## Interactive Articles
 
 {% for article in site.data.articles %}
 {% include cv/article.html article=article %}
-{% endfor %} -->
+{% endfor %}
 
-<!-- ## Technology Skills
+## Technology Skills
 
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
@@ -144,10 +143,10 @@ jsarr:
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
-<div class="cv-service-title"><b>Member</b></div>
+<!-- <div class="cv-service-title"><b>Member</b></div>
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Design
 

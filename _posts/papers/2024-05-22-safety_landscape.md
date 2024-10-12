@@ -24,7 +24,7 @@ feature-order: 20240522
 coming-soon: false
 award: 
 award-link: 
-code: 
+code: https://github.com/ShengYun-Peng/llm-landscape
 selected: true
 type: conference
 bibtex: |-
