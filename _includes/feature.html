@@ -18,9 +18,9 @@
 
 			<div class="cover-venue">
 				{% if feature.venue-shorthand %}
-				{{ feature.venue-shorthand }}
+				{{ feature.venue-shorthand }},
 				{% else if feature.venue %}
-				{{ feature.venue }}
+				{{ feature.venue }},
 				{% else %}
 				{{ feature.month }}
 				{% endif %}
@@ -58,6 +58,18 @@
 					</a>
 					{% endif %}
 
+					{% if feature.code %}
+					<a href="{{ feature.code }}">
+						<i class="fas fa-code" aria-hidden="true"></i> Code
+					</a>
+					{% endif %}
+
+					{% if feature.award %}
+					<a href="{{ feature.award-link }}">
+						<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
+					</a>
+					{% endif %}
+
 					{% if feature.blog %}
 					<a href="{{ feature.blog }}">
 						<i class="fas fa-newspaper" aria-hidden="true"></i> Blog
@@ -88,29 +100,17 @@
 					  </a>
 					{% endif %}
 
-					{% if feature.code %}
-					<a href="{{ feature.code }}">
-						<i class="fas fa-code" aria-hidden="true"></i> Code
-					</a>
-					{% endif %}
-
 					{% if feature.poster %}
 					<a href="{{ feature.poster }}">
 						<i class="fas fa-window-maximize" aria-hidden="true"></i> Poster
 					</a>
 					{% endif %}
 
-					{% if feature.award %}
-					<a href="{{ feature.award-link }}">
-						<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
-					</a>
-					{% endif %}
-
-					{% if feature.significance %}
+					<!-- {% if feature.significance %}
 					<a href="{{ feature.significance-link }}">
 						<i class="fas fa-sharp fa-solid fa-award" aria-hidden="true"></i> {{ feature.significance }}
 					</a>
-					{% endif %}
+					{% endif %} -->
 					
 				</span>
 
