@@ -17,9 +17,9 @@ Useful tools that will come in handy when you are working on ML-related projects
 - [wandb](https://wandb.ai/site): A dashboard to visualize and compare your training process
 - [affinity designer](https://affinity.serif.com/en-us/designer/): Adjust figures' aesthetics
 
-<div style="height: 4rem"></div>
+<!-- <div style="height: 4rem"></div> -->
 
-## All Projects
+<!-- ## All Projects
 
 <div class="cover-wrapper cover-wrapper-1-col l-middle">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
@@ -28,17 +28,17 @@ Useful tools that will come in handy when you are working on ML-related projects
 	{% endfor %}
 </div>
 
-<!-- ## [Blog][blog]
-Things I think about, read, and write. -->
+## [Blog][blog]
+Things I think about, read, and write.
 
 
-<!-- ## [Archive][archive]
-The one-stop shop, including all posts from the Blog, Monthly Music, and Projects. --> 
+## [Archive][archive]
+The one-stop shop, including all posts from the Blog, Monthly Music, and Projects. 
 
-<!-- ## [Projects][projects]
-Things I do, including research, academic course projects, and miscellaneous interests. -->
+## [Projects][projects]
+Things I do, including research, academic course projects, and miscellaneous interests.
 
 [projects]: {{ site.url }}/projects
 [blog]: {{ site.url }}/blog
 [archive]: {{ site.url }}/archive "Archive."
-[tools]: {{ site.url }}/tools
+[tools]: {{ site.url }}/tools -->

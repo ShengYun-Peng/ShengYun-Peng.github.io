@@ -1,7 +1,7 @@
 - degree: "Ph.D. in Computer Science"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  advisor: Duen Horng Chau
+  # advisor: Duen Horng Chau
   years: "Jan. 2022 —"
   years-extra: "present"
   institution-url: https://www.gatech.edu/
