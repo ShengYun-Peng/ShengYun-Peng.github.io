@@ -7,6 +7,15 @@
   website: "faculty.cc.gatech.edu/~dchau"
   url: "faculty.cc.gatech.edu/~dchau"
 
+- name: Pin-Yu Chen
+  position: Principal Research Scientist
+  group: Trusted AI Group
+  institution: IBM
+  location: Yorktown, NY, USA
+  phd: true
+  website: "sites.google.com/site/pinyuchenpage/home"
+  url: "https://sites.google.com/site/pinyuchenpage/home"
+
 - name: Lei He
   position: Professor
   group: School of Electrical and Computer Engineering
@@ -16,11 +25,11 @@
   website: "eda.ee.ucla.edu/people/faculty.html"
   url: "http://eda.ee.ucla.edu/people/faculty.html"
 
-- name: Ying Zhou
-  position: Professor
-  group: College of Civil Engineering
-  institution: Tongji University
-  location: Shanghai, China
-  phd: true
-  website: "https://www.journals.elsevier.com/resilient-cities-and-structures/editorial-board/ying-zhou"
-  url: "https://www.journals.elsevier.com/resilient-cities-and-structures/editorial-board/ying-zhou"
+# - name: Ying Zhou
+#   position: Professor
+#   group: College of Civil Engineering
+#   institution: Tongji University
+#   location: Shanghai, China
+#   phd: true
+#   website: "www.journals.elsevier.com/resilient-cities-and-structures/editorial-board/ying-zhou"
+#   url: "https://www.journals.elsevier.com/resilient-cities-and-structures/editorial-board/ying-zhou"

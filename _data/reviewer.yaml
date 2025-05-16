@@ -1,3 +1,18 @@
+- venue: "ACL"
+  years:
+    - year: 2025
+      url: https://2025.aclweb.org/
+
+- venue: "AISTATS"
+  years:
+    - year: 2025
+      url: https://virtual.aistats.org/
+
+- venue: "ICML"
+  years:
+    - year: 2025
+      url: https://icml.cc/
+
 - venue: "ICLR"
   years:
     - year: 2025
@@ -12,6 +27,8 @@
   years:
     - year: 2024
       url: https://neurips.cc/Conferences/2024
+    - year: 2025
+      url: https://neurips.cc/Conferences/2025
     
 - venue: "Scientific Reports"
   years:

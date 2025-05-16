@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">ShengYun Peng</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">ShengYun (Anthony) Peng</a></h1>
 
 <!-- <div style="height: 1rem"></div> -->
 <!-- <div>

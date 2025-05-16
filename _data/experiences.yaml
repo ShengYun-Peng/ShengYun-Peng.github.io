@@ -1,4 +1,18 @@
 - institution: Meta
+  location: "New York, NY"
+  position: Research Scientist Intern
+  # group: Security Solution Lab
+  year: "May 2025 — "
+  year-extra: "Aug 2025"
+  # mentors:
+  #   - David Yang
+  #   - Kai Sheng Tai
+  # description: "Efficient text embedding models via token merging"
+  institution-url: https://about.meta.com/
+  # group-url: https://about.meta.com/
+  type: industry
+
+- institution: Meta
   location: "Menlo Park, CA"
   position: Research Scientist Intern
   # group: Security Solution Lab
