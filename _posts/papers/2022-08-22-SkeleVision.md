@@ -17,7 +17,7 @@ caption: "Example video frames and the corresponding adversarial IoU charts for 
 feature-title: "SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning"
 feature-description: Nilaksh Das, <b> ShengYun Peng </b>, Duen Horng Chau
 image: /images/featured/22-skelevision.png
-featured: true
+featured: false
 feature-order: 202208
 selected: false
 type: workshop

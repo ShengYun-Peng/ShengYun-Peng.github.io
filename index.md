@@ -26,17 +26,15 @@ title: Home
 		<!-- <a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a> -->
 	</div>
 	<div>
-		Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research strengthens the generalization and robustness of machine learning, spanning vision models, LLMs, and VLMs. As steps towards this goal, I work on: 
+		Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research advances <b>safer, more efficient, and robust AI systems at scale</b> &mdash; spanning training, inference, and deployment &mdash; by tackling core challenges in safety alignment, inference efficiency, and scalable system design across language, vision, and multimodal models:
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
-		<b> &bull; Multimodal representation learning </b>: foundation models for table recognition (<a href="https://arxiv.org/abs/2403.04822">UniTable</a>, <a href="https://arxiv.org/abs/2311.05565">Table Transformer</a>, 
-		<a href="https://arxiv.org/abs/2402.15578">Self-supervised Pretraining</a>), efficient text embedding models (coming soon!), 
-		<!-- RGB-infrared fusion object tracking (<a href="https://www.sciencedirect.com/science/article/pii/S092359651930342X">DsiamMFT</a>, <a href="https://ieeexplore.ieee.org/abstract/document/8809774">SiamFT</a>),  -->
-		and structural health monitoring (<a href="https://www.techno-press.org/content/?page=article&journal=sss&volume=27&num=5&ordernum=7">system identification</a>).
+		<b> &bull; Advancing Safety Alignment Throughout Model Training</b>: LLM safety basin, the first framework explaining how minimal unsafe data can collapse alignment during fine-tuning (<a href="https://arxiv.org/abs/2405.17374">NeurIPS'24</a>); robust CNN architectures that achieved SOTA on RobustBench (<a href="https://arxiv.org/abs/2308.16258">BMVC Best Poster Award</a>); dynamic safety shaping framework for LLM finetuning risk mitigation (In Submission).
 		<br>
-		<b> &bull; Robust machine learning models </b>: LLM landscape (<a href="https://arxiv.org/abs/2405.17374">LLM safety basin</a>), robust CNN design principles (<a href="https://arxiv.org/abs/2308.16258">#1 on RobustBench CIFAR-10, BMVC Best Poster Award</a>), and multi-task person tracking (<a href="https://link.springer.com/chapter/10.1007/978-3-031-25056-9_29">SkeleVision</a>).
-		 <!-- and defending LLM attacks (<a href="https://arxiv.org/abs/2308.07308">LLM Self Defense</a>) -->
+		<b> &bull; Optimizing Inference for Scalability and Throughput</b>: video VLM scaling study for optimal inference (ACL'25); token reduction method that doubles LLM inference throughput (In Submission).
+		<br>
+		<b> &bull; Bridging Research and Deployment for Real-World Impact</b>: UniTable, a modular table parsing system with over 470+ stars (workshops at <a href="https://arxiv.org/abs/2311.05565">NeurIPS'23 (oral)</a>, <a href="https://arxiv.org/abs/2402.15578">AAAI'24 (oral)</a>, &amp; <a href="https://arxiv.org/abs/2403.04822">NeurIPS'24</a>); distributed systems tutorials on Medium (33K+ readers). 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
