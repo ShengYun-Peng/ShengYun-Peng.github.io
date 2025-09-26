@@ -11,7 +11,7 @@ authors:
   - ShengYun Peng
   - Mansi Phute
   - Duen Horng Chau
-venue: In Submission
+venue: EMNLP
 year: 2025
 url:
 pdf: https://arxiv.org/abs/2506.05451

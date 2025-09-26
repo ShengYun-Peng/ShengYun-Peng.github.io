@@ -30,11 +30,11 @@ title: Home
 	</div>
 	<div style="height: 0.5rem"></div>
 	<div>
-		<b> &bull; Advancing Safety Alignment Throughout Model Training</b>: LLM safety basin, the first framework explaining how minimal unsafe data can collapse alignment during fine-tuning (<a href="https://arxiv.org/abs/2405.17374">NeurIPS'24</a>); robust CNN architectures that achieved SOTA on RobustBench (<a href="https://arxiv.org/abs/2308.16258">BMVC'23 with Best Poster Award</a>); dynamic safety shaping framework for LLM finetuning risk mitigation (In Submission).
+		<b> &bull; Advancing Safety Alignment Throughout Model Training</b>: LLM safety basin, the first framework explaining how minimal unsafe data can collapse alignment during fine-tuning (<a href="https://arxiv.org/abs/2405.17374">NeurIPS'24</a>); robust CNN architectures that achieved SOTA on RobustBench (<a href="https://arxiv.org/abs/2308.16258">BMVC'23, Best Poster Award</a>); dynamic safety shaping framework for LLM finetuning risk mitigation (<a href="https://arxiv.org/abs/2505.17196">NeurIPS'25</a>).
 		<br>
 		<b> &bull; Optimizing Inference for Scalability and Throughput</b>: video VLM scaling study for optimal inference (<a href="https://arxiv.org/abs/2505.18855">ACL'25</a>); token reduction method that doubles LLM inference throughput (In Submission); a scalable framework that empowers MLLMs to understand composite images (<a href="https://arxiv.org/abs/2412.05243">ICCV'25</a>).
 		<br>
-		<b> &bull; Bridging Research and Deployment for Real-World Impact</b>: UniTable, a modular table parsing system with over 470+ stars (workshops at <a href="https://arxiv.org/abs/2311.05565">NeurIPS'23 (oral)</a>, <a href="https://arxiv.org/abs/2402.15578">AAAI'24 (oral)</a>, &amp; <a href="https://arxiv.org/abs/2403.04822">NeurIPS'24</a>); distributed systems tutorials on Medium (33K+ readers). 
+		<b> &bull; Bridging Research and Deployment for Real-World Impact</b>: UniTable, a modular table parsing system with over 470+ stars (workshops at <a href="https://arxiv.org/abs/2311.05565">NeurIPS'23 (oral)</a>, <a href="https://arxiv.org/abs/2402.15578">AAAI'24 (oral)</a>, &amp; <a href="https://arxiv.org/abs/2403.04822">NeurIPS'24</a>); distributed systems tutorials on <a href="https://medium.com/polo-club-of-data-science/multi-gpu-training-in-pytorch-with-code-part-1-single-gpu-example-d682c15217a8">Medium</a> (33K+ readers). 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>

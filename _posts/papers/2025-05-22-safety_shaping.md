@@ -10,7 +10,7 @@ authors:
   - Jianfeng Chi
   - Seongmin Lee
   - Duen Horng Chau
-venue: In Submission
+venue: NeurIPS
 year: 2025
 url: llm-safety-shaping
 pdf: https://arxiv.org/abs/2505.17196
@@ -29,11 +29,11 @@ selected: true
 type: conference
 bibtex: |-
 
-    @article{peng2024navigating,
-      title={Navigating the Safety Landscape: Measuring Risks in Finetuning Large Language Models},
-      author={Peng, ShengYun and Chen, Pin-Yu and Hull, Matthew and Chau, Duen Horng},
-      journal={arXiv preprint arXiv:2405.17374},
-      year={2024}
+    @article{peng2025shape,
+      title={Shape it Up! Restoring LLM Safety during Finetuning},
+      author={Peng, ShengYun and Chen, Pin-Yu and Chi, Jianfeng and Lee, Seongmin and Chau, Duen Horng},
+      journal={arXiv preprint arXiv:2505.17196},
+      year={2025}
     }
 ---
 
