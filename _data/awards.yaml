@@ -1,3 +1,19 @@
+- name: Oral Paper Award
+  description: UNDREAM is an oral presentation at PAKDD 2026
+  year: 2026
+
+- name: Oral Paper Award
+  description: UniTable is an oral presentation at NeurIPS 2024 Workshop
+  year: 2024
+
+- name: Oral Paper Award
+  description: Self-supervised table structure recognition is an oral presentation at AAAI 2024 Workshop
+  year: 2024
+
+- name: Oral Paper Award
+  description: Transformer for table structure recognition is an oral presentation at NeurIPS 2023 Workshop
+  year: 2023
+
 - name: BMVC 2023 Best Poster Award
   description: Only five of the accepted papers are selected for the award
   year: 2023

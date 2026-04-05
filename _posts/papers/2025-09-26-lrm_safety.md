@@ -16,9 +16,9 @@ authors:
   - Mahesh Pasupuleti
   - Jianfeng Chi
 venue: In submission
-year: 2025
+year: 2026
 url: lrm-safety
-pdf: 
+pdf: https://arxiv.org/abs/2510.00938
 figure: /images/papers/25_lrm-safety.png
 caption: "RECAP trains LRMs on a mixture of counter-aligned prefilled and standard prompts. Harmful prompts are prefilled with unsafe reasoning, and benign prompts with refusal reasoning, forcing the model to override flawed trajectories to achieve high rewards. This simple recipe teaches models to internalize safety values and remain robust under both clean and adversarial reasoning traces, with no extra cost beyond standard RLHF."
 feature-title: "Large Reasoning Models Learn Better Alignment from Flawed Thinking"
@@ -27,18 +27,20 @@ image: /images/featured/25_lrm-safety.png
 featured: true
 feature-order: 20250926
 coming-soon: true
-award: 
-award-link: 
-code:
+award: "#2 paper of the day 🤗"
+award-link: https://huggingface.co/papers/2510.00938
+highlight: "Went Viral on X (👁 26K+)"
+highlight-link: https://x.com/RealAnthonyPeng/status/1973756324547575873
+code: https://github.com/ShengYun-Peng/recap
 selected: true
 type: conference
 bibtex: |-
 
     @article{peng2025large,
-      title={Large Reasoning Models Learn Better Alignment from Flawed Thinking},
-      author={Peng, ShengYun and Chen, Pin-Yu and Hull, Matthew and Chau, Duen Horng},
-      journal={arXiv preprint arXiv:2405.17374},
-      year={2024}
+      title={Large reasoning models learn better alignment from flawed thinking},
+      author={Peng, ShengYun and Smith, Eric and Evtimov, Ivan and Jiang, Song and Chen, Pin-Yu and Zhan, Hongyuan and Wang, Haozhu and Chau, Duen Horng and Pasupuleti, Mahesh and Chi, Jianfeng},
+      journal={arXiv preprint arXiv:2510.00938},
+      year={2025}
     }
 ---
 

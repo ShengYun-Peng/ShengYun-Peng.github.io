@@ -1,8 +1,11 @@
-<div><b>{{ title.name }}</b></div>
-
-{% for talk in title.items %}
-<div class="cv-left-date">{{ talk.month }} {{ talk.year }}</div>
-<div>{{ talk.location }}</div>
+<div class="talk-block">
+<div><b>{{ talk.title }}</b></div>
+{% for venue in talk.venues %}
+<div class="cv-entry cv-entry-compact">
+<div class="cv-entry-content">
+<span class="talk-venue">{{ venue.location }}</span>{% if venue.video %} <a href="{{ venue.video }}" class="talk-video-link"><i class="fas fa-video" aria-hidden="true"></i></a>{% endif %}
+</div>
+<div class="cv-entry-date">{% if venue.note %}{{ venue.note }} {% endif %}{{ venue.month }} {{ venue.year }}</div>
+</div>
 {% endfor %}
-
-<div class="cv-spacer"></div>
+</div>

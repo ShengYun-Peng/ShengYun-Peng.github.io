@@ -57,29 +57,3 @@ function onPlayerReady(event) {
 	// player.mute()
 }
 
-// Fetch GitHub stars for code links
-document.addEventListener('DOMContentLoaded', function() {
-	const codeLinks = document.querySelectorAll('.code-link');
-	codeLinks.forEach(function(link) {
-		const repoUrl = link.getAttribute('data-repo');
-		if (!repoUrl || !repoUrl.includes('github.com')) return;
-
-		const match = repoUrl.match(/github\.com\/([^\/]+)\/([^\/]+)/);
-		if (!match) return;
-
-		const owner = match[1];
-		const repo = match[2];
-
-		fetch('https://api.github.com/repos/' + owner + '/' + repo)
-			.then(function(res) { return res.json(); })
-			.then(function(data) {
-				if (data.stargazers_count && data.stargazers_count >= 50) {
-					const starsSpan = link.querySelector('.github-stars');
-					if (starsSpan) {
-						starsSpan.textContent = '(\u2605' + data.stargazers_count.toLocaleString() + ')';
-					}
-				}
-			})
-			.catch(function() {});
-	});
-});

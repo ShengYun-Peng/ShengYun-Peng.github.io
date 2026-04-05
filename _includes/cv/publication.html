@@ -4,15 +4,15 @@
 </div>
 {% endif %} -->
 
-<div>
+<div class="pub-title">
 {% if pub.url %}
-	<a href="{{ pub.url }}"><b>{{ pub.title }}</b></a>
+	<a href="{{ pub.url }}">{{ pub.title }}</a>
 {% else %}
-	<b>{{ pub.title }}</b>
+	{{ pub.title }}
 {% endif %}
 </div>
 
-<div>
+<div class="pub-authors">
 	{% for person in pub.authors %}
 		{% if forloop.last == false %}
 			{% include person.html person=person %}{% for p in pub.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %},
@@ -22,7 +22,7 @@
 	{% endfor %}
 </div>
 
-<div><i>{{ pub.venue }}{% if pub.venue-shorthand %} ({{ pub.venue-shorthand }}){% endif %}. {% if pub.location %}{{ pub.location }},{% endif %} {{ pub.year }}.</i></div>
+<div class="pub-venue">{{ pub.venue }}{% if pub.venue-shorthand %} ({{ pub.venue-shorthand }}){% endif %}. {% if pub.location %}{{ pub.location }},{% endif %} {{ pub.year }}.</div>
 
 <div class="pub-misc">
 {% if pub.url or pub.pdf or pub.coming-soon %}
@@ -52,8 +52,8 @@
 	{% endif %}
 
 	{% if pub.code %}
-	<a href="{{ pub.code }}" class="code-link" data-repo="{{ pub.code }}">
-		<i class="fas fa-code" aria-hidden="true"></i> Code<span class="github-stars"></span>
+	<a href="{{ pub.code }}">
+		<i class="fas fa-code" aria-hidden="true"></i> Code{% if pub.code-stars %}<span class="github-stars">(★{{ pub.code-stars }})</span>{% endif %}
 	</a>
 	{% endif %}
 
@@ -133,19 +133,23 @@
 	{% if pub.award %}
 	<a href="{{ pub.award-link }}" class="pub-award-link">
 	    <span class="cv-award">
-			<i class="fas fa-trophy" aria-hidden="true"></i> {{ pub.award }}
+			<i class="fas fa-award" aria-hidden="true"></i> {{ pub.award }}
 		</span>
 	</a>
 	{% endif %}
 
 	{% if feature.award %}
 	<a href="{{ feature.award-link }}" class="pub-award-link">
-		<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
+		<i class="fas fa-award" aria-hidden="true"></i> {{ feature.award }}
 	</a>
 	{% endif %}
 
 	{% if pub.highlight %}
-		<span class="cv-award"><i class="fas fa-star" aria-hidden="true"></i> {{ pub.highlight }}</span>
+		{% if pub.highlight-link %}
+		<a href="{{ pub.highlight-link }}" class="pub-award-link"><span class="cv-award"><i class="fas fa-fire" aria-hidden="true"></i> {{ pub.highlight }}</span></a>
+		{% else %}
+		<span class="cv-award"><i class="fas fa-fire" aria-hidden="true"></i> {{ pub.highlight }}</span>
+		{% endif %}
 	{% endif %}
 
 	{% if pub.equal-contribution %}

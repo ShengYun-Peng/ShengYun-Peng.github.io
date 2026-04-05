@@ -1,21 +1,32 @@
-- name: Mansi Phute
-  year: "Apr. 2023 —"
-  year-extra: "present"
-  degree: "M.S. in Computer Science, Georgia Institute of Technology"
+- name: Tsung-Huan Yang
+  year: "Aug. 2025 —"
+  year-extra: "Dec. 2025"
+  degree: "MS in Computer Science, Georgia Institute of Technology"
   description:
   awards:
   now-position:
   now-institution: 
+  now-institution-url: 
+  url: https://huan80805.github.io/
+
+- name: Mansi Phute
+  year: "Apr. 2023 —"
+  year-extra: "Dec. 2025"
+  degree: "MS in Computer Science, Georgia Institute of Technology"
+  description:
+  awards:
+  now-position: CS PhD
+  now-institution: Georgia Institute of Technology
   now-institution-url: 
   url: https://www.linkedin.com/in/mansi-phute-413744166/
 
 - name: Kevin Li
   year: "Aug. 2022 —"
   year-extra: "May 2023"
-  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  degree: "BS in Computer Science, Georgia Institute of Technology"
   description:
   awards:
-  now-position: ML Ph.D.
+  now-position: ML PhD
   now-institution: Carnegie Mellon University
   now-institution-url: https://seongmin.xyz/cv/
   url: https://www.kevinyli.com/

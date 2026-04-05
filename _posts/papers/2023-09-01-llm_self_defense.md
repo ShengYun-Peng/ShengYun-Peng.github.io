@@ -14,9 +14,10 @@ feature-order: 20230901
 coming-soon: false
 venue: ICLR Tiny Papers Track
 year: 2024
-award: 
+award: Deployed by ADP
 award-link:
 code: https://github.com/poloclub/llm-self-defense
+code-stars: 51
 
 title: "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked"
 authors:

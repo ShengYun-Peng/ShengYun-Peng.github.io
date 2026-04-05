@@ -28,6 +28,7 @@ image: /images/featured/23_diffusion-explainer.png
 featured: false
 feature-order: 202305
 code: https://github.com/poloclub/diffusion-explainer
+code-stars: 460
 demo: https://poloclub.github.io/diffusion-explainer/
 recording: https://www.youtube.com/watch?v=Zg4gxdIWDds
 selected: false

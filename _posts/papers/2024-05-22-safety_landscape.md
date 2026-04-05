@@ -25,6 +25,8 @@ coming-soon: false
 award: 
 award-link: 
 code: https://github.com/ShengYun-Peng/llm-landscape
+highlight: "Went Viral on X (👁 21K+)"
+highlight-link: https://x.com/RealAnthonyPeng/status/1797996615426539874?s=20
 selected: true
 type: conference
 bibtex: |-

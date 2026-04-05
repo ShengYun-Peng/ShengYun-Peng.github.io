@@ -25,6 +25,8 @@ feature-order: 20250605
 coming-soon: false
 award: 
 award-link: 
+highlight: "Went Viral on LinkedIn (❤️ 340+)"
+highlight-link: https://www.linkedin.com/posts/seongmin-lee-8b8a97209_im-excited-to-share-that-our-paper-interpretation-share-7364271836429230080-e8ba?utm_source=share&utm_medium=member_desktop&rcm=ACoAACSpufMBbS3PQLPmcyNOfzTepJ80Jt1S5gc
 code:
 selected: false
 type: conference

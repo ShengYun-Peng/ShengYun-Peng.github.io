@@ -88,7 +88,7 @@ jsarr:
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
-{% endfor %}
+{% endfor %} -->
 
 ## Teaching
 
@@ -102,7 +102,7 @@ jsarr:
 {% include cv/fund.html fund=fund %}
 {% endfor %}
 
-## Interactive Articles
+<!-- ## Interactive Articles
 
 {% for article in site.data.articles %}
 {% include cv/article.html article=article %}
@@ -114,12 +114,11 @@ jsarr:
 {% include cv/skill.html skill=skill %}
 {% endfor %} -->
 
-<!-- ## Talks and Presentations
+## Talks
 
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include cv/talk.html talk=title %}
-{% endfor %} -->
+{% for talk in site.data.talks %}
+{% include cv/talk.html talk=talk %}
+{% endfor %}
 
 ## Service
 
@@ -162,11 +161,11 @@ jsarr:
 {% endfor %}
 {:/}
 
-## References
+<!-- ## References
 
 {% for reference in site.data.references %}
 {% include cv/reference.html reference=reference %}
-{% endfor %}
+{% endfor %} -->
 
 
 [cv]: {{ site.url }}/cv.pdf "My CV."

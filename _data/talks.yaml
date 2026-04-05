@@ -1,34 +1,83 @@
+# Each talk has a title and a list of venues where it was presented.
+# Example with multiple venues:
+#
+# - title: "My Talk Title"
+#   venues:
+#     - location: "Conference A"
+#       month: "Nov."
+#       year: 2025
+#       video: https://youtube.com/watch?v=xxx
+#     - location: "University B Seminar"
+#       month: "Oct."
+#       year: 2025
+#     - location: "Workshop C"
+#       month: "Sep."
+#       year: 2025
+#       note: "(coming soon)"
+
+- title: "Safety Alignment of Generative Foundation Models"
+  venues:
+    - location: "Georgia Tech Thesis Proposal"
+      month: "Nov."
+      year: 2025
+    - location: "IBM Research"
+      month: "Nov."
+      year: 2025
+    - location: "Ploutos AI"
+      month: "Nov."
+      year: 2025
+      video: https://x.com/RealAnthonyPeng/status/1989824629750599898?s=20
+    - location: "Microsoft Research"
+      month: "Mar."
+      year: 2026
+    - location: "Capital One Research"
+      month: "Mar."
+      year: 2026
+    - location: "Tesla AI"
+      month: "Mar."
+      year: 2026
+    - location: "Georgia Tech HotCSE Event"
+      month: "Apr."
+      year: 2026
+
 - title: "UniTable: Towards a Unified Table Foundation Model"
-  location: "ADP AI Community of Practice Meetup"
-  month: "Mar."
-  year: 2024
+  venues:
+    - location: "ADP AI Community of Practice Meetup"
+      month: "Mar."
+      year: 2024
 
 - title: "Self-supervised Pre-training for Table Structure Recognition Transformer"
-  location: "AAAI 2024 Scientific Document Understanding Workshop"
-  month: "Feb."
-  year: 2024
+  venues:
+    - location: "AAAI 2024 Scientific Document Understanding Workshop"
+      month: "Feb."
+      year: 2024
 
 - title: "High-Performance Transformers for Table Structure Recognition Need Early Convolutions"
-  location: "NeurIPS 2023 2nd Table Representation Workshop"
-  month: "Dec."
-  year: 2023
+  venues:
+    - location: "NeurIPS 2023 2nd Table Representation Workshop"
+      month: "Dec."
+      year: 2023
 
 - title: "Robust Principles"
-  location: "DARPA GARD PI Meeting (Evaluation 7)"
-  month: "Oct."
-  year: 2023
+  venues:
+    - location: "DARPA GARD PI Meeting (Evaluation 7)"
+      month: "Oct."
+      year: 2023
 
 - title: "Exploration of Robust Model Architectures"
-  location: "DARPA GARD PI Meeting (Evaluation 6)"
-  month: "May"
-  year: 2023
+  venues:
+    - location: "DARPA GARD PI Meeting (Evaluation 6)"
+      month: "May"
+      year: 2023
 
 - title: "In Search of Robust Architectures against Adversarial Attacks"
-  location: "Intel Labs (Internship Report)"
-  month: "Aug."
-  year: 2022
+  venues:
+    - location: "Intel Labs (Internship Report)"
+      month: "Aug."
+      year: 2022
 
 - title: "A New Siamese-based Tracking for Structural Health Monitoring"
-  location: "International Workshop on Data Science in Civil Engineering"
-  month: "June"
-  year: 2019
+  venues:
+    - location: "International Workshop on Data Science in Civil Engineering"
+      month: "June"
+      year: 2019

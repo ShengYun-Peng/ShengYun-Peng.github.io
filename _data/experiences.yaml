@@ -1,9 +1,21 @@
+- institution: Nvidia
+  location: "Santa Clara, CA"
+  position: Research Scientist Intern
+  year: "May 2026 — "
+  year-extra: "present"
+  # mentors:
+  #   - David Yang
+  #   - Kai Sheng Tai
+  institution-url: https://about.meta.com/
+  # group-url: https://about.meta.com/
+  type: industry
+
 - institution: Meta
   location: "New York, NY"
   position: Research Scientist Intern
   # group: Security Solution Lab
   year: "May 2025 — "
-  year-extra: "present"
+  year-extra: "Dec. 2025"
   # mentors:
   #   - David Yang
   #   - Kai Sheng Tai

@@ -1,11 +1,12 @@
-<div>
+<div class="service-line">
 	{{ venue.venue }}
-	{% if venue.venue-shorthand %}(<b>{{ venue.venue-shorthand }}</b>){% endif %} {% if venue.venue-at %}at {{ venue.venue-at }}{% endif %}
+	{% if venue.venue-shorthand %}(<b>{{ venue.venue-shorthand }}</b>){% endif %}
+	{% if venue.venue-at %}at {{ venue.venue-at }}{% endif %}
 	{% for year in venue.years %}
 		{% if year.url %}
-		<a href="{{ year.url }}">{{ year.year }}</a>{% if forloop.last == false %},{% endif %}
+		<a href="{{ year.url }}" class="service-year">{{ year.year }}</a>{% if forloop.last == false %} · {% endif %}
 		{% else %}
-		{{ year.year }}{% if forloop.last == false %},{% endif %}
+		<span class="service-year">{{ year.year }}</span>{% if forloop.last == false %} · {% endif %}
 		{% endif %}
 	{% endfor %}
 </div>
