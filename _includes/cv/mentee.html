@@ -1,4 +1,5 @@
-<div class="cv-left-date">{{ mentee.year }} {{ mentee.year-extra }}</div>
+<div class="cv-entry">
+<div class="cv-entry-content">
 <div><a href="{{ mentee.url }}"><b>{{ mentee.name }}</b></a>{% if mentee.intern %}<span class="appears-on"> at <a href="{{ mentee.intern-url }}">{{ mentee.intern }}</a></span>{% endif %}</div>
 <div><i>{{ mentee.degree }}</i></div>
 <div class="cv-description">{{ mentee.description }}</div>
@@ -12,8 +13,8 @@
 {% endif %}
 
 {% if mentee.now-position %}
-	<!-- <div class="cv-description">Now: {{ mentee.now-position }} at <a href="{{ mentee.now-institution-url }}">{{ mentee.now-institution }}</a></div> -->
 	<div class="cv-description">Now: {{ mentee.now-position }} at {{ mentee.now-institution }}</div>
 {% endif %}
-
-<div class="cv-spacer"></div>
+</div>
+<div class="cv-entry-date">{{ mentee.year }} {{ mentee.year-extra }}</div>
+</div>

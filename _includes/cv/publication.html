@@ -52,8 +52,8 @@
 	{% endif %}
 
 	{% if pub.code %}
-	<a href="{{ pub.code }}">
-		<i class="fas fa-code" aria-hidden="true"></i> Code
+	<a href="{{ pub.code }}" class="code-link" data-repo="{{ pub.code }}">
+		<i class="fas fa-code" aria-hidden="true"></i> Code<span class="github-stars"></span>
 	</a>
 	{% endif %}
 
@@ -131,7 +131,7 @@
 	{% endif %}
 
 	{% if pub.award %}
-	<a href="{{ pub.award-link }}">
+	<a href="{{ pub.award-link }}" class="pub-award-link">
 	    <span class="cv-award">
 			<i class="fas fa-trophy" aria-hidden="true"></i> {{ pub.award }}
 		</span>
@@ -139,7 +139,7 @@
 	{% endif %}
 
 	{% if feature.award %}
-	<a href="{{ feature.award-link }}">
+	<a href="{{ feature.award-link }}" class="pub-award-link">
 		<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
 	</a>
 	{% endif %}

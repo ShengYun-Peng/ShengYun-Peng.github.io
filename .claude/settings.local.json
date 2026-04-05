@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle lock:*)",
+      "Bash(bundle install:*)",
+      "WebFetch(domain:zijie.wang)"
+    ]
+  }
+}

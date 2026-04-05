@@ -1,4 +1,5 @@
-<div class="cv-left-date">{{ degree.years }} {{ degree.years-extra }}</div>
+<div class="cv-entry">
+<div class="cv-entry-content">
 <b>{{ degree.degree }}</b>
 <div><a href="{{ degree.institution-url }}">{{ degree.institution }}</a>, {{ degree.location }}</div>
 
@@ -26,7 +27,7 @@
 		{% endfor %}
 	</div>
 {% endif %}
-	
+
 {% if degree.description %}
 	<div class="cv-description">
 		{% for item in degree.description %}
@@ -54,5 +55,6 @@
 		</a>
 	{% endif %}
 </div>
-
-<div class="cv-spacer"></div>
+</div>
+<div class="cv-entry-date">{{ degree.years }} {{ degree.years-extra }}</div>
+</div>
