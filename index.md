@@ -10,7 +10,7 @@ title: Home
 	<div id="intro-content">
 		<div id="intro-text">
 			<div>
-				Hi, I'm Anthony, a CS PhD at Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.
+				Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech.
 			</div>
 			<div style="height: 0.5rem"></div>
 			<div>
@@ -18,7 +18,7 @@ title: Home
 			</div>
 			<div style="height: 0.5rem"></div>
 			<div>
-				My dissertation has elevated foundational AI efforts across leading technology organizations, including Nvidia, Meta, IBM Research, Intel Lab, and ADP.
+				My dissertation, advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>, has elevated foundational AI efforts across leading technology organizations, including Nvidia, Meta, IBM Research, Intel Lab, and ADP.
 			</div>
 
 			<!-- <div>
