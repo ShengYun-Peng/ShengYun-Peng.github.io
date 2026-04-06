@@ -206,10 +206,21 @@ $cv-icon-aspect-ratio: 1.33;
 }
 
 @media screen and (max-width: $mobile) {
-	#intro-title {
-		font-size: 2.2rem;
-		display: block;
+	#intro-wrapper {
 		text-align: center;
+	}
+
+	#intro-title {
+		font-size: 3rem;
+
+		&::after {
+			left: -0.3rem;
+			right: -0.3rem;
+		}
+	}
+
+	#intro-text {
+		text-align: left;
 	}
 
 	#intro-subtitle {
@@ -231,8 +242,8 @@ $cv-icon-aspect-ratio: 1.33;
 	}
 
 	#intro-image {
-		height: 10rem;
-		width: 10rem;
+		height: 14rem;
+		width: 14rem;
 	}
 
 	#intro-text {
