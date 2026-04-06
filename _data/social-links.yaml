@@ -11,7 +11,7 @@
   color: "#515151"
   class: "fas fa-envelope icon"
   url: "mailto:speng65@gatech.edu"
-  on-homepage: true
+  on-homepage: false
   cv-group: 1
 
 - id: twitter

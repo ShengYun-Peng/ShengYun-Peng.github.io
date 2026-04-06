@@ -4,12 +4,46 @@ title: Home
 ---
 
 <div id="intro-wrapper" class="l-middle">
-	<div id="intro-title-wrapper">
-		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/2022-square.jpg"></div>
-		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">ShengYun (Anthony) Peng</h1>
-			<div id="intro-subtitle">CS PhD at Georgia Tech</div>
+	<h1 id="intro-title">Anthony Peng</h1>
+	<!-- <div id="intro-subtitle">CS PhD at Georgia Tech</div> -->
+
+	<div id="intro-content">
+		<div id="intro-text">
+			<div>
+				Hi, I'm Anthony, a CS PhD at Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.
+			</div>
+			<div style="height: 0.5rem"></div>
+			<div>
+				My research advances the <b>safety alignment of generative foundation models</b> by developing principled methods that make safety an intrinsic, generalizable property &mdash; so that models behave safely not only during training, but also when finetuned, reasoned over, or deployed autonomously in real-world settings.
+			</div>
+			<div style="height: 0.5rem"></div>
+			<div>
+				My dissertation has elevated foundational AI efforts across leading technology organizations, including Nvidia, Meta, IBM Research, Intel Lab, and ADP.
+			</div>
+
+			<!-- <div>
+				research advances <b>safer, more efficient, and robust AI systems at scale</b> &mdash; spanning training, inference, and deployment &mdash; by tackling core challenges in safety alignment, inference efficiency, and scalable system design across language, vision, and multimodal models:
+				<b> &bull; Advancing Safety Alignment Throughout Model Training</b>: LLM safety basin, the first framework explaining how minimal unsafe data can collapse alignment during fine-tuning (<a href="https://arxiv.org/abs/2405.17374">NeurIPS'24</a>); robust CNN architectures that achieved SOTA on RobustBench (<a href="https://arxiv.org/abs/2308.16258">BMVC'23, Best Poster Award</a>); dynamic safety shaping framework for LLM finetuning risk mitigation (<a href="https://arxiv.org/abs/2505.17196">NeurIPS'25</a>).
+				<br>
+				<b> &bull; Optimizing Inference for Scalability and Throughput</b>: video VLM scaling study for optimal inference (<a href="https://arxiv.org/abs/2505.18855">ACL'25</a>); token reduction method that doubles LLM inference throughput (In Submission); a scalable framework that empowers MLLMs to understand composite images (<a href="https://arxiv.org/abs/2412.05243">ICCV'25</a>).
+				<br>
+				<b> &bull; Bridging Research and Deployment for Real-World Impact</b>: UniTable, a modular table parsing system with over 470+ stars (workshops at <a href="https://arxiv.org/abs/2311.05565">NeurIPS'23 (oral)</a>, <a href="https://arxiv.org/abs/2402.15578">AAAI'24 (oral)</a>, &amp; <a href="https://arxiv.org/abs/2403.04822">NeurIPS'24</a>); distributed systems tutorials on <a href="https://medium.com/polo-club-of-data-science/multi-gpu-training-in-pytorch-with-code-part-1-single-gpu-example-d682c15217a8">Medium</a> (33K+ readers). 
+			</div>
+			<div style="height: 1rem"></div>
+			<div>
+				I am fortunate to have collaborated with researchers, developers, scientists, and engineers at 
+				<img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech, 
+				<img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/meta.png"> Meta, 
+				<img class="intro-logo" style="width: 28px; padding-bottom: 3px;" src="/images/ibm.png"> IBM Research, 
+				<img class="intro-logo" style="width: 33px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Lab, 
+				<img class="intro-logo" style="width: 34px; padding-bottom: 3px;" src="/images/adp.png"> ADP, 
+				<img class="intro-logo" style="width: 24px; padding-bottom: 3px;" src="/images/ucla.svg"> UCLA. 
+			</div> -->
+		</div>
+		<div id="intro-sidebar">
+			<div id="intro-image-wrapper">
+				<img id="intro-image" src="/images/2022-square.jpg">
+			</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -17,44 +51,18 @@ title: Home
 					{% endif %}
 				{% endfor %}
 			</div>
+			<div id="everything-else">
+				<a href="mailto:speng65@gatech.edu"><div><i class="fas fa-envelope icon-right-space"></i>Say Hello</div></a>
+				<a href="{{ site.url }}/cv"><div>CV</div></a>
+			</div>
 		</div>
-	</div>
-	<!-- <hr class="l-middle home-hr"> -->
-	<div id="everything-else" class="l-middle">
-		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
-		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
-		<!-- <a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a> -->
-	</div>
-	<div>
-		Hi, I'm Anthony, a CS PhD at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>. My research advances <b>safer, more efficient, and robust AI systems at scale</b> &mdash; spanning training, inference, and deployment &mdash; by tackling core challenges in safety alignment, inference efficiency, and scalable system design across language, vision, and multimodal models:
-	</div>
-	<div style="height: 0.5rem"></div>
-	<div>
-		<b> &bull; Advancing Safety Alignment Throughout Model Training</b>: LLM safety basin, the first framework explaining how minimal unsafe data can collapse alignment during fine-tuning (<a href="https://arxiv.org/abs/2405.17374">NeurIPS'24</a>); robust CNN architectures that achieved SOTA on RobustBench (<a href="https://arxiv.org/abs/2308.16258">BMVC'23, Best Poster Award</a>); dynamic safety shaping framework for LLM finetuning risk mitigation (<a href="https://arxiv.org/abs/2505.17196">NeurIPS'25</a>).
-		<br>
-		<b> &bull; Optimizing Inference for Scalability and Throughput</b>: video VLM scaling study for optimal inference (<a href="https://arxiv.org/abs/2505.18855">ACL'25</a>); token reduction method that doubles LLM inference throughput (In Submission); a scalable framework that empowers MLLMs to understand composite images (<a href="https://arxiv.org/abs/2412.05243">ICCV'25</a>).
-		<br>
-		<b> &bull; Bridging Research and Deployment for Real-World Impact</b>: UniTable, a modular table parsing system with over 470+ stars (workshops at <a href="https://arxiv.org/abs/2311.05565">NeurIPS'23 (oral)</a>, <a href="https://arxiv.org/abs/2402.15578">AAAI'24 (oral)</a>, &amp; <a href="https://arxiv.org/abs/2403.04822">NeurIPS'24</a>); distributed systems tutorials on <a href="https://medium.com/polo-club-of-data-science/multi-gpu-training-in-pytorch-with-code-part-1-single-gpu-example-d682c15217a8">Medium</a> (33K+ readers). 
-	</div>
-	<div style="height: 1rem"></div>
-	<div>
-		I am fortunate to have collaborated with researchers, developers, scientists, and engineers at 
-        <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/gatech.svg"> Georgia Tech, 
-		<img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/meta.png"> Meta, 
-		<img class="intro-logo" style="width: 28px; padding-bottom: 3px;" src="/images/ibm.png"> IBM Research, 
-        <img class="intro-logo" style="width: 33px; padding-bottom: 3px;" src="/images/intel.svg"> Intel Lab, 
-		<img class="intro-logo" style="width: 34px; padding-bottom: 3px;" src="/images/adp.png"> ADP, 
-        <img class="intro-logo" style="width: 24px; padding-bottom: 3px;" src="/images/ucla.svg"> UCLA. 
-        <!-- <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/tongji.svg"> Tongji,
-        <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/sjtu.png"> SJTU,
-        and <img class="intro-logo" style="width: 20px; padding-bottom: 3px;" src="/images/fudan.svg"> Fudan. -->
 	</div>
 </div>
 
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title l-middle"> Featured Publications </h2>
+<h2 class="feature-title l-middle"> Research Highlights </h2>
 <div style="height: 1rem"></div>
 <div class="cover-wrapper cover-wrapper-1-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' | reverse %}
