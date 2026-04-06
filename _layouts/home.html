@@ -15,6 +15,30 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script>
+  // Detect image aspect ratio and add slide direction class
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.cover-image > a > img').forEach(function(img) {
+      function classify() {
+        if (img.naturalWidth === 0) return;
+        var container = img.closest('.cover-image > a');
+        if (!container) return;
+        var containerRatio = container.offsetWidth / container.offsetHeight;
+        var imgRatio = img.naturalWidth / img.naturalHeight;
+        if (imgRatio > containerRatio * 1.1) {
+          img.classList.add('slide-horizontal');
+        } else if (imgRatio < containerRatio * 0.9) {
+          img.classList.add('slide-vertical');
+        }
+      }
+      if (img.complete) {
+        classify();
+      } else {
+        img.addEventListener('load', classify);
+      }
+    });
+  });
+  </script>
 </body>
 
 </html>

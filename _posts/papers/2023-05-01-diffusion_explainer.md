@@ -30,7 +30,7 @@ feature-order: 202305
 code: https://github.com/poloclub/diffusion-explainer
 code-stars: 460
 demo: https://poloclub.github.io/diffusion-explainer/
-recording: https://www.youtube.com/watch?v=Zg4gxdIWDds
+video: https://www.youtube.com/watch?v=Zg4gxdIWDds
 selected: false
 doi: 
 bibtex: |-

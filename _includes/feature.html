@@ -64,12 +64,6 @@
 					</a>
 					{% endif %}
 
-					{% if feature.award %}
-					<a href="{{ feature.award-link }}">
-						<i class="fas fa-trophy" aria-hidden="true"></i> {{ feature.award }}
-					</a>
-					{% endif %}
-
 					{% if feature.blog %}
 					<a href="{{ feature.blog }}">
 						<i class="fas fa-newspaper" aria-hidden="true"></i> Blog
@@ -106,11 +100,21 @@
 					</a>
 					{% endif %}
 
-					<!-- {% if feature.significance %}
-					<a href="{{ feature.significance-link }}">
-						<i class="fas fa-sharp fa-solid fa-award" aria-hidden="true"></i> {{ feature.significance }}
+					{% if feature.award %}
+					<a href="{{ feature.award-link }}" class="pub-award-link">
+						<span class="cv-award"><i class="fas fa-award" aria-hidden="true"></i> {{ feature.award }}</span>
 					</a>
-					{% endif %} -->
+					{% endif %}
+
+					{% if feature.highlight %}
+					{% if feature.highlight-link %}
+					<a href="{{ feature.highlight-link }}" class="pub-award-link">
+						<span class="cv-award"><i class="fas fa-fire" aria-hidden="true"></i> {{ feature.highlight }}</span>
+					</a>
+					{% else %}
+					<span class="cv-award"><i class="fas fa-fire" aria-hidden="true"></i> {{ feature.highlight }}</span>
+					{% endif %}
+					{% endif %}
 					
 				</span>
 

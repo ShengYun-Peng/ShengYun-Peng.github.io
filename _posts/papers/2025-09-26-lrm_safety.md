@@ -26,7 +26,7 @@ feature-description: <b> ShengYun Peng </b>, Eric Smith, Ivan Evtimov, Song Jian
 image: /images/featured/25_lrm-safety.png
 featured: true
 feature-order: 20250926
-coming-soon: true
+coming-soon: false
 award: "#2 paper of the day 🤗"
 award-link: https://huggingface.co/papers/2510.00938
 highlight: "Went Viral on X (👁 26K+)"
