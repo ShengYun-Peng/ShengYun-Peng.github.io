@@ -208,35 +208,45 @@ $cv-icon-aspect-ratio: 1.33;
 @media screen and (max-width: $mobile) {
 	#intro-title {
 		font-size: 2.2rem;
+		display: block;
+		text-align: center;
 	}
 
 	#intro-subtitle {
 		font-size: 1.2rem;
+		text-align: center;
 	}
 
 	#intro-content {
-		flex-direction: column-reverse;
+		flex-direction: column;
 		gap: 1.5rem;
 	}
 
 	#intro-sidebar {
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
-		gap: 1rem;
+		gap: 0.75rem;
 		width: 100%;
+		margin-top: 0;
 	}
 
 	#intro-image {
-		height: 6rem;
-		width: 6rem;
+		height: 10rem;
+		width: 10rem;
+	}
+
+	#intro-text {
+		max-width: 100%;
 	}
 
 	#intro-title-socials {
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	#everything-else {
 		flex-direction: row;
+		justify-content: center;
 	}
 
 	#everything-else > a {

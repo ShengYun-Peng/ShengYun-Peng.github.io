@@ -220,6 +220,16 @@ $cover-width: 26.5px;
     margin-left: 0rem !important;
     margin-right: 0rem !important;
     grid-template-columns: 1fr;
+    grid-template-rows: 180px auto;
+  }
+
+  .cover-image {
+    padding: 0.75rem;
+    height: 180px;
+  }
+
+  .cover-image > a > img {
+    object-position: center center;
   }
 
   .cover-inner {
