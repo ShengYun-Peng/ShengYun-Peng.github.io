@@ -3,25 +3,28 @@ layout: paper
 categories: papers
 permalink: papers/skelevision
 id: skelevision
-title: "SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning"
-authors:
-  - Nilaksh Das
-  - ShengYun Peng
-  - Duen Horng Chau
-venue: ECCV AROW Workshop
-year: 2022
-url: /papers/skelevision
-pdf: https://arxiv.org/abs/2204.00734
-figure: /images/papers/22_skelevision.png
-caption: "Example video frames and the corresponding adversarial IoU charts for the video from the OTB2015-Person dataset showing the constructed static adversarial patches for single-task learning (STL) (red) and multi-task learning (MTL) (orange) for an attack with &delta; = 0.1 and 10 steps. The dashed blue box shows the ground-truth target. The attack misleads the STL tracker early, but struggles to mislead the MTL tracker until much later. The unperturbed gray regions in the patch are locations which are never predicted by the tracker. Since SiamRPN is a short-term tracker, the tracker cannot be restored once it loses the target"
+
+# cover
 feature-title: "SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning"
 feature-description: Nilaksh Das, <b> ShengYun Peng </b>, Duen Horng Chau
 image: /images/featured/22-skelevision.png
 featured: false
 feature-order: 202208
+venue: ECCV AROW Workshop
+year: 2022
+code: https://github.com/nilakshdas/SkeleVision
+
+# content
+title: "SkeleVision: Towards Adversarial Resiliency of Person Tracking with Multi-Task Learning"
+authors:
+  - Nilaksh Das
+  - ShengYun Peng
+  - Duen Horng Chau
+pdf: https://arxiv.org/abs/2204.00734
+figure: /images/papers/22_skelevision.png
+caption: "Example video frames and the corresponding adversarial IoU charts for the video from the OTB2015-Person dataset showing the constructed static adversarial patches for single-task learning (STL) (red) and multi-task learning (MTL) (orange) for an attack with &delta; = 0.1 and 10 steps. The dashed blue box shows the ground-truth target. The attack misleads the STL tracker early, but struggles to mislead the MTL tracker until much later. The unperturbed gray regions in the patch are locations which are never predicted by the tracker. Since SiamRPN is a short-term tracker, the tracker cannot be restored once it loses the target"
 selected: false
 type: workshop
-code: https://github.com/nilakshdas/SkeleVision
 bibtex: |-
 
   @inproceedings{das2022skelevision,
@@ -33,7 +36,6 @@ bibtex: |-
       organization={Springer}
   }
 ---
-
 Person tracking using computer vision techniques has wide
 ranging applications such as autonomous driving, home security and
 sports analytics. However, the growing threat of adversarial attacks raises

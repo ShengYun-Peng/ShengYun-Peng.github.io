@@ -10,6 +10,12 @@
     - year: 2025
       url: https://2025.aclweb.org/
 
+- venue: "Conference on Empirical Methods in Natural Language Processing"
+  venue-shorthand: EMNLP
+  years:
+    - year: 2026
+      url: https://2026.emnlp.org/
+
 - venue: "International Conference on Artificial Intelligence and Statistics"
   venue-shorthand: AISTATS
   years:
@@ -21,11 +27,12 @@
 - venue: "International Conference on Machine Learning"
   venue-shorthand: ICML
   years:
+    - year: 2023
+      url: https://icml.cc/Conferences/2023
     - year: 2025
       url: https://icml.cc/Conferences/2025
     - year: 2026
       url: https://icml.cc/Conferences/2026
-
 
 - venue: "International Conference on Learning Representations"
   venue-shorthand: ICLR
@@ -53,6 +60,18 @@
     - year: 2026
       url: https://neurips.cc/Conferences/2026
 
+- venue: "European Conference on Computer Vision"
+  venue-shorthand: ECCV
+  years:
+    - year: 2026
+      url: https://eccv.ecva.net/Conferences/2026
+
+- venue: "International Conference on Computer Vision"
+  venue-shorthand: ICCV
+  years:
+    - year: 2023
+      url: https://iccv2023.thecvf.com/
+
 - venue: "IEEE Transactions on Image Processing"
   venue-shorthand: TIP
   years:
@@ -69,21 +88,10 @@
     - year: 2023
       url: https://www.nature.com/srep/
 
-- venue: "ICCV Workshop"
-  years:
-    - year: 2023
-      url: https://iccv23-arow.github.io/
-
 - venue: "IEEE Transactions on Cybernetics"
   years:
     - year: 2023
       url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036
-
-- venue: "ICML Workshop"
-  years:
-    - year: 2023
-      url: https://advml-frontier.github.io/
-
 
 - venue: "Signal Processing: Image Communication"
   years:

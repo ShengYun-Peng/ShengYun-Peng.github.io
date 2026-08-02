@@ -3,6 +3,17 @@ layout: paper
 categories: papers
 permalink: papers/Fusion
 id: Fusion
+
+# cover
+feature-title: "Object Fusion Tracking Based on Visible and Infrared Images Using Fully Convolutional Siamese Networks"
+feature-description: Xingchen Zhang, Ping Ye, Dan Qiao, Junhao Zhao, <b> ShengYun Peng </b>, Gang Xiao
+image: /images/featured/19_siamfc-fusion.png
+featured: false
+feature-order: 201907
+venue: 22th International Conference on Information Fusion (FUSION)
+year: 2019
+
+# content
 title: "Object Fusion Tracking Based on Visible and Infrared Images Using Fully Convolutional Siamese Networks"
 authors:
   - Xingchen Zhang
@@ -11,16 +22,8 @@ authors:
   - Junhao Zhao
   - ShengYun Peng
   - Gang Xiao
-venue: 22th International Conference on Information Fusion (FUSION)
-year: 2019
-url: /papers/Fusion
 pdf: /papers/19_Fusion.pdf
 figure: /images/papers/19_Fusion.png
-feature-title: "Object Fusion Tracking Based on Visible and Infrared Images Using Fully Convolutional Siamese Networks"
-feature-description: Xingchen Zhang, Ping Ye, Dan Qiao, Junhao Zhao, ≈, Gang Xiao
-image: /images/featured/19_siamfc-fusion.png
-featured: false
-feature-order: 201907
 selected: false
 type: conference
 doi: ""
@@ -34,7 +37,6 @@ bibtex: |-
     pages={1-8},
   }
 ---
-
 Visual tracking is of great importance and thus has attracted a lot of interests in 
 recent years. However, tracking based on visible images may fail when visible images 
 are not reliable, for example when the illumination conditions are poor or in foggy 

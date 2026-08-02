@@ -39,14 +39,10 @@ layout: default
 	<!-- <hr class="project-hr"> -->
 
 	<div id="paper-materials" class="l-text">
-		{% if page.url or page.pdf or page.coming-soon %}
+		{% if page.pdf or page.coming-soon %}
 		
 			{% if page.coming-soon == true %}
 			  <a><div><i class="fas fa-arrow-right" aria-hidden="true"></i> Coming soon!</div></a>
-			{% endif %}
-		
-			{% if page.url %}
-			  <a href="{{ page.url }}"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
 			{% endif %}
 		
 			{% if page.demo %}

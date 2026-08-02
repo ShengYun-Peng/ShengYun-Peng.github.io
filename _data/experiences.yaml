@@ -1,18 +1,17 @@
 - institution: Nvidia
   location: "Santa Clara, CA"
-  position: Research Scientist Intern
+  position: Applied Deep Learning PhD Research Intern
   year: "May 2026 — "
   year-extra: "present"
   # mentors:
   #   - David Yang
   #   - Kai Sheng Tai
-  institution-url: https://about.meta.com/
-  # group-url: https://about.meta.com/
+  institution-url: https://www.nvidia.com/
   type: industry
 
 - institution: Meta
   location: "New York, NY"
-  position: Research Scientist Intern
+  position: Research Intern (AI)
   # group: Security Solution Lab
   year: "May 2025 — "
   year-extra: "Dec. 2025"
@@ -26,7 +25,7 @@
 
 - institution: Meta
   location: "Menlo Park, CA"
-  position: Research Scientist Intern
+  position: Research Intern (AI)
   # group: Security Solution Lab
   year: "May 2024 — "
   year-extra: "Dec. 2024"
@@ -36,19 +35,6 @@
   # description: "Efficient text embedding models via token merging"
   institution-url: https://about.meta.com/
   # group-url: https://about.meta.com/
-  type: industry
-
-- institution: IBM Research
-  location: "Yorktown Heights, NY"
-  position: Research Scientist Intern
-  # group: Security Solution Lab
-  year: "Feb. 2024 — "
-  year-extra: May 2024
-  # mentors:
-  #   - Pin-Yu Chen
-  # description: "LLM safety"
-  institution-url: https://research.ibm.com/
-  group-url: https://research.ibm.com/
   type: industry
 
 - institution: Intel
@@ -68,15 +54,15 @@
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
   position: Graduate Research Assistant
-  group: School of Computer Science
+  # group: School of Computer Science
   year: "May 2021 —"
   year-extra: "present"
-  mentors:
-    - Duen Horng Chau
-  description: Member of <a href="https://poloclub.github.io/">Polo Club of Data Science</a> where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data.
+  # mentors:
+  #   - Duen Horng Chau
+  # description: Member of <a href="https://poloclub.github.io/">Polo Club of Data Science</a> where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data.
   institution-url: http://gatech.edu
-  group-url: https://www.scs.gatech.edu/
-  type: academic
+  # group-url: https://www.scs.gatech.edu/
+  type: industry
 
 - institution: Fudan University
   location: "Shanghai, China"

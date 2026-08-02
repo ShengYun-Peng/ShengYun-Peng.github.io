@@ -1,7 +1,6 @@
 ---
 layout: paper
 categories: papers
-url: /papers/
 permalink: papers/<name>
 id: <name>
 
@@ -30,6 +29,4 @@ selected: false
 type: conference
 doi: 
 bibtex: |-
-
-
 ---

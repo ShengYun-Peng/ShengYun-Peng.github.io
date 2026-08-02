@@ -3,6 +3,17 @@ layout: paper
 categories: papers
 permalink: papers/Anti-Occlusion
 id: Anti-Occlusion
+
+# cover
+feature-title: "Anti-occlusion object tracking based on correlation filter"
+feature-description: Jun Liu, Gang Xiao, Xingchen Zhang, Ping Ye, Xingzhong Xiong, <b> ShengYun Peng </b>
+image: /images/featured/19_anti-occlusion.png
+featured: false
+feature-order: 201911
+venue: Signal, Image and Video Processing
+year: 2019
+
+# content
 title: "Anti-occlusion object tracking based on correlation filter"
 authors:
   - Jun Liu
@@ -11,16 +22,8 @@ authors:
   - Ping Ye
   - Xingzhong Xiong
   - ShengYun Peng
-venue: Signal, Image and Video Processing
-year: 2019
-url: /papers/Anti-Occlusion
 pdf: /papers/19_Anti-Occlusion.pdf
 figure: /images/papers/19_Anti-Occlusion.png
-feature-title: "Anti-occlusion object tracking based on correlation filter"
-feature-description: Jun Liu, Gang Xiao, Xingchen Zhang, Ping Ye, Xingzhong Xiong, <b> ShengYun Peng </b>
-image: /images/featured/19_anti-occlusion.png
-featured: false
-feature-order: 201911
 selected: false
 type: journal
 doi: "10.1007/s11760-019-01601-6"
@@ -36,7 +39,6 @@ bibtex: |-
     doi={10.1007/s11760-019-01601-6}
   }
 ---
-
 Despite remarkable progress, visual object tracking is still a challenging task as objects usually suffer from significant
 appearance changes, fast motion, and serious occlusion. In this paper, we propose an anti-occlusion correlation filter-based
 tracking method (AO-CF) for robust visual tracking. We first propose an occlusion criterion based on continuous response
