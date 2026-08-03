@@ -82,13 +82,13 @@ jsarr:
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
+{% endfor %} -->
 
 ## Press
 
 {% for press in site.data.press %}
 {% include cv/press.html press=press %}
-{% endfor %} -->
+{% endfor %}
 
 ## Teaching
 

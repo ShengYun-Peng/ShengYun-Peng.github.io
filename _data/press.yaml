@@ -1,0 +1,80 @@
+# Press coverage, most recent first.
+# Fields: title, publisher, link, month, year, language (optional pill)
+# Keep each title self-contained and short enough to sit on one line.
+
+- title: "Congratulations on presenting UNDREAM at PAKDD 2026"
+  publisher: Georgia Tech CSE
+  month: June
+  year: 2026
+  link: https://x.com/GTCSE/status/2067316363744485607
+
+- title: "CSE Biweekly Roundup: UNDREAM at PAKDD 2026 and HotCSE seminar"
+  publisher: Georgia Tech CSE
+  month: June
+  year: 2026
+  link: https://cse.gatech.edu/cse-biweekly-roundup-january-june-2026
+
+- title: "CSE Biweekly Roundup: thesis proposal and NeurIPS 2025 safety shaping"
+  publisher: Georgia Tech CSE
+  month: Dec.
+  year: 2025
+  link: https://cse.gatech.edu/cse-biweekly-roundup-july-december-2025
+
+- title: "#2 Paper of the Day for RECAP"
+  publisher: Hugging Face Daily Papers
+  month: Oct.
+  year: 2025
+  link: https://huggingface.co/papers/2510.00938
+
+- title: "CSE Biweekly Roundup: inference compute-optimal video VLMs at ACL 2025"
+  publisher: Georgia Tech CSE
+  month: June
+  year: 2025
+  link: https://cse.gatech.edu/cse-biweekly-roundup-january-june-2025
+
+- title: "Table extraction in DocParse benchmarked against UniTable"
+  publisher: Aryn
+  month: Jan.
+  year: 2025
+  link: https://www.aryn.ai/post/we-improved-table-extraction-in-docparse-with-a-new-ai-model
+
+- title: "CSE Biweekly Roundup: LLM safety landscape at NeurIPS 2024 and UniTable"
+  publisher: Georgia Tech CSE
+  month: Dec.
+  year: 2024
+  link: https://cse.gatech.edu/cse-biweekly-roundup-july-december-2024
+
+- title: "Blog introducing the VISAGE safety metric for LLM finetuning risks"
+  publisher: Medium
+  month: June
+  year: 2024
+  link: https://medium.com/@techsachin/visage-safety-metric-measuring-risks-in-finetuning-llms-0ccbdceafbb5
+
+- title: "CSE Biweekly Roundup: LLM Self-Defense with Intel Labs at ICLR 2024"
+  publisher: Georgia Tech CSE
+  month: June
+  year: 2024
+  link: https://cse.gatech.edu/cse-biweekly-roundup-january-june-2024
+
+- title: "Full credit goes to ShengYun (Anthony) Peng and his team"
+  publisher: Open Parse
+  year: 2024
+  link: https://filimoa.github.io/open-parse/processing/parsing-tables/unitable/
+
+- title: "UniTable cited as state of the art for table extraction"
+  publisher: Hacker News
+  month: Apr.
+  year: 2024
+  link: https://news.ycombinator.com/item?id=39966534
+
+- title: "CSE Biweekly Roundup: BMVC 2023 Best Poster Award and RobustBench #1"
+  publisher: Georgia Tech CSE
+  month: Dec.
+  year: 2023
+  link: https://cse.gatech.edu/cse-biweekly-roundup-july-december-2023
+
+- title: "CSE Biweekly Roundup: adversarial robustness tutorial at ECCV 2022"
+  publisher: Georgia Tech CSE
+  month: Oct.
+  year: 2022
+  link: https://cse.gatech.edu/cse-biweekly-roundup-july-december-2022

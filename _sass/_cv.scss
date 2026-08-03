@@ -225,6 +225,29 @@
 	font-size: 0.95rem;
 }
 
+// Press
+.press-publisher {
+	font-style: italic;
+	color: #9a9a9a;
+	margin-left: 0.4rem;
+}
+
+.press-language {
+	display: inline-block;
+	background-color: #9a9a9a;
+	color: #fff;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	padding: 0 0.55rem;
+	border-radius: 1rem;
+	margin-left: 0.4rem;
+	vertical-align: 1px;
+}
+
+.press-line {
+	line-height: 1.45;
+}
+
 // Talks
 .talk-block {
 	margin-bottom: 0.75rem;
