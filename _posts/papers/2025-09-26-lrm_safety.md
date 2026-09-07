@@ -9,15 +9,15 @@ feature-title: "Large Reasoning Models Learn Better Alignment from Flawed Thinki
 feature-description: <b> ShengYun Peng </b>, Eric Smith, Ivan Evtimov, Song Jiang, Pin-Yu Chen, Hongyuan Zhan, Haozhu Wang, Duen Horng Chau, Mahesh Pasupuleti, Jianfeng Chi
 image: /images/featured/25_lrm-safety.png
 featured: true
-feature-order: 20250926
+feature-order: 20260831
 coming-soon: false
-venue: In submission
+venue: EMNLP
 year: 2026
 award: "#2 paper of the day 🤗"
 award-link: https://huggingface.co/papers/2510.00938
 highlight: "Went Viral on X (👁 26K+)"
 highlight-link: https://x.com/RealAnthonyPeng/status/1973756324547575873
-code: https://github.com/ShengYun-Peng/recap
+code: https://github.com/poloclub/recap
 
 # content
 title: "Large Reasoning Models Learn Better Alignment from Flawed Thinking"

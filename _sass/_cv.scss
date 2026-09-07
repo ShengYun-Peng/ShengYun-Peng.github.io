@@ -334,7 +334,12 @@
 	text-decoration: none;
 }
 
-.pub-misc .pub-award-link,
+// Award/highlight links stay transparent at rest but keep the same padding as
+// the other pills, so their hover background matches them instead of hugging the text.
+.pub-misc .pub-award-link {
+	background: none;
+}
+
 .pub-misc span.cv-award {
 	background: none;
 	padding: 0;

@@ -41,6 +41,8 @@
       url: https://iclr.cc/Conferences/2025
     - year: 2026
       url: https://iclr.cc/Conferences/2026
+    - year: 2027
+      url: https://iclr.cc/
 
 - venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
   venue-shorthand: KDD
@@ -49,6 +51,8 @@
       url: https://kdd2025.kdd.org/
     - year: 2026
       url: https://kdd2026.kdd.org/
+    - year: 2027
+      url: https://kdd2027.kdd.org/
 
 - venue: "Neural Information Processing Systems"
   venue-shorthand: NeurIPS
@@ -71,6 +75,18 @@
   years:
     - year: 2023
       url: https://iccv2023.thecvf.com/
+
+- venue: "AAAI Conference on Artificial Intelligence"
+  venue-shorthand: AAAI
+  years:
+    - year: 2027
+      url: https://aaai.org/conference/aaai/aaai-27/
+
+- venue: "IEEE/CVF Winter Conference on Applications of Computer Vision"
+  venue-shorthand: WACV
+  years:
+    - year: 2027
+      url: https://wacv.thecvf.com/
 
 - venue: "IEEE Transactions on Image Processing"
   venue-shorthand: TIP
