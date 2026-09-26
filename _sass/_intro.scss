@@ -52,6 +52,8 @@ $cv-icon-aspect-ratio: 1.33;
 	flex: 1;
 	min-width: 0;
 	max-width: 67%;
+	text-align: justify;
+	hyphens: auto;
 }
 
 #intro-sidebar {
@@ -220,7 +222,7 @@ $cv-icon-aspect-ratio: 1.33;
 	}
 
 	#intro-text {
-		text-align: left;
+		text-align: justify;
 	}
 
 	#intro-subtitle {
