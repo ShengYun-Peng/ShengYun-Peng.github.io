@@ -8,9 +8,7 @@ title: Anthony Peng
 tagline: CS PhD Student at Georgia Tech
 email: speng65@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Anthony Peng is a CS PhD student at Georgia Tech working on making foundation models safe and reliable as their capabilities scale.
 baseurl: "" # the subpath of the site, e.g. /blog
 url: https://shengyun-peng.github.io/ # the base hostname & protocol for the site
 

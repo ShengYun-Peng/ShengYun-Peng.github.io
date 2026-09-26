@@ -127,7 +127,7 @@ jsarr:
 {% include cv/venue.html venue=venue %}
 {% endfor %} -->
 
-<div class="cv-service-title"><b>Program Commitee</b></div>
+<div class="cv-service-title"><b>Program Committee</b></div>
 {% for venue in site.data.pc %}
 {% include cv/venue.html venue=venue %}
 {% endfor %}

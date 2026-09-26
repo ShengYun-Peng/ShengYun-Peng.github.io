@@ -13,6 +13,7 @@ feature-order: 20260831
 coming-soon: false
 venue: EMNLP
 year: 2026
+significance: Oral
 award: "#2 paper of the day 🤗"
 award-link: https://huggingface.co/papers/2510.00938
 highlight: "Went Viral on X (👁 26K+)"

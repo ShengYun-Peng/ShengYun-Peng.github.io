@@ -1,3 +1,11 @@
+- name: VIS 2026 Best Short Paper Honorable Mention
+  description: "UNIPO: Unified Interactive Visual Explanation for RL Fine-Tuning Policy Optimization"
+  year: 2026
+
+- name: Oral Paper Award
+  description: Large Reasoning Models Learn Better Alignment from Flawed Thinking is a virtual oral presentation at EMNLP 2026
+  year: 2026
+
 - name: Oral Paper Award
   description: Differentiable Rendering Powered End-to-End Adversarial Attack Evaluation is an oral presentation at PAKDD 2026
   year: 2026
@@ -18,7 +26,7 @@
   description: Only five of the accepted papers are selected for the award
   year: 2023
 
-- name: Outstanding Gradutes in Shanghai
+- name: Outstanding Graduates in Shanghai
   description: For top 5% undergraduates graduating in 2020.
   year: 2020
 

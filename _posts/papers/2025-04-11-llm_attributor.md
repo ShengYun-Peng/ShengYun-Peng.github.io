@@ -6,7 +6,7 @@ id: llm-attributor
 
 # cover
 feature-title: "LLM Attributor: Interactive Visual Attribution for LLM Generation"
-feature-description: Seongmin Lee, Zijie J. Wang, Aishwarya Chakravarthy, Alec Helbling, <b> ShengYun Peng </b>, Mansi Phute, Duen Horng Polo Chau, Minsuk Kahng
+feature-description: Seongmin Lee, Zijie J. Wang, Aishwarya Chakravarthy, Alec Helbling, <b> ShengYun Peng </b>, Mansi Phute, Duen Horng Chau, Minsuk Kahng
 image: /images/featured/25_llm-attributor.png
 featured: false
 feature-order: 20250411
@@ -24,7 +24,7 @@ authors:
   - Alec Helbling
   - ShengYun Peng
   - Mansi Phute
-  - Duen Horng Polo Chau
+  - Duen Horng Chau
   - Minsuk Kahng
 pdf: https://ojs.aaai.org/index.php/AAAI/article/view/35357
 video: https://www.youtube.com/watch?v=mIG2MDQKQxM

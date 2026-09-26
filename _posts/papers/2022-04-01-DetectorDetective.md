@@ -5,7 +5,7 @@ permalink: papers/detector-detective
 id: detector-detective
 
 # cover
-feature-title: DetectorDetective&#58; Investigating the Effects of Adversarial Examples on Object Detectors
+feature-title: "DetectorDetective: Investigating the Effects of Adversarial Examples on Object Detectors"
 feature-description: "Interactive visualization tool for adversarial object detectors"
 image: /images/featured/22_cvpr_detectordetective.png
 featured: false

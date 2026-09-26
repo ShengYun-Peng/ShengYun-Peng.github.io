@@ -100,6 +100,12 @@
 					</a>
 					{% endif %}
 
+					{% if feature.significance %}
+					<a href="{{ feature.url }}" class="pub-award-link">
+						<span class="cv-award"><i class="fas fa-award" aria-hidden="true"></i> {{ feature.significance }}</span>
+					</a>
+					{% endif %}
+
 					{% if feature.award %}
 					<a href="{{ feature.award-link }}" class="pub-award-link">
 						<span class="cv-award"><i class="fas fa-award" aria-hidden="true"></i> {{ feature.award }}</span>

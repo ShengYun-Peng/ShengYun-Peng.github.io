@@ -14,7 +14,7 @@ title: Home
 			</div>
 			<div style="height: 0.5rem"></div>
 			<div>
-				My research advances the <b>safety alignment of generative foundation models</b> by developing principled methods that make safety an intrinsic, generalizable property &mdash; so that models behave safely not only during training, but also when finetuned, reasoned over, or deployed autonomously in real-world settings.
+				My research aims to make <b>foundation models safe and reliable as their capabilities scale</b>. I develop training methods and design principles that strengthen safety during adaptation and reasoning, improve robustness and visual understanding, and expand capabilities within practical data and compute budgets.
 			</div>
 			<div style="height: 0.5rem"></div>
 			<div>
