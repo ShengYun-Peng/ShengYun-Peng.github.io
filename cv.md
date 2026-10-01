@@ -77,12 +77,12 @@ jsarr:
 {% endif %}
 {% endfor %}
 
-<!-- ## Preprint
+## Preprint
 
 {% assign preprint = site.categories.papers | where: 'type', "misc" %}
 {% for pub in preprint %}
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %} -->
+{% endfor %}
 
 ## Press
 
@@ -200,4 +200,3 @@ Most importantly, my positive energy level throughout the research career is exc
 <!-- My research focuses on trustworthy machine learning, computer vision, and multimodal foundation models, with an emphasis on enhancing deep learning algorithm safety and explainability. I achieve this through methods of architecture modification, multi-task learning, and visualizing model behavior under adversarial attacks. My work also spans application domains such as multimodal systems, object detection, object tracking, table representation learning, and structural health monitoring. -->
 
 <!-- I have strong interests in building reliable algorithms and toolkits that understand, fortify and democratize AI security with an eye towards scalability and practicality in real-world settings.  -->
-

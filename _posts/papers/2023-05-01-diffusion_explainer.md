@@ -11,7 +11,7 @@ image: /images/featured/23_diffusion-explainer.png
 featured: false
 feature-order: 202305
 venue: IEEE Visualization Conference (VIS)
-year: 2023
+year: 2024
 code: https://github.com/poloclub/diffusion-explainer
 code-stars: 474
 
