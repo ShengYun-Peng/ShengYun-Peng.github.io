@@ -99,9 +99,21 @@
     - year: 2025
       url: https://link.springer.com/journal/530
 
+- venue: "The Visual Computer"
+  years:
+    - year: 2025
+      url: https://link.springer.com/journal/371
+
+- venue: "Signal, Image and Video Processing"
+  years:
+    - year: 2025
+      url: https://link.springer.com/journal/11760
+
 - venue: "Scientific Reports"
   years:
     - year: 2023
+      url: https://www.nature.com/srep/
+    - year: 2025
       url: https://www.nature.com/srep/
 
 - venue: "IEEE Transactions on Cybernetics"

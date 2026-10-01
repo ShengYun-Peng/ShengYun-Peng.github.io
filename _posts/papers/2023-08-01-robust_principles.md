@@ -6,7 +6,7 @@ id: robust-principles
 
 # cover
 feature-title: "Robust Principles: Architectural Design Principles for Adversarially Robust CNNs"
-feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Matthew Hull, Kevin Li, Rahul Duggal, Mansi Phute, Duen Horng Chau, Jason Martin
+feature-description: <b> ShengYun Peng </b>, Weilin Xu, Cory Cornelius, Matthew Hull, Kevin Li, Rahul Duggal, Mansi Phute, Jason Martin, Duen Horng Chau
 image: /images/featured/23_robust-principles.png
 featured: true
 feature-order: 20230801
@@ -28,8 +28,8 @@ authors:
   - Kevin Li
   - Rahul Duggal
   - Mansi Phute
-  - Duen Horng Chau
   - Jason Martin
+  - Duen Horng Chau
 pdf: https://arxiv.org/abs/2308.16258
 video: https://www.youtube.com/watch?v=S-N1iuA0hAY
 poster: /papers/posters/22_robarch.pdf

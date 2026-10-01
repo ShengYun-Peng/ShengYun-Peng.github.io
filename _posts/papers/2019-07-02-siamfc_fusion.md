@@ -10,7 +10,7 @@ feature-description: Xingchen Zhang, Ping Ye, Dan Qiao, Junhao Zhao, <b> ShengYu
 image: /images/featured/19_siamfc-fusion.png
 featured: false
 feature-order: 201907
-venue: 22th International Conference on Information Fusion (FUSION)
+venue: 22nd International Conference on Information Fusion (FUSION)
 year: 2019
 
 # content
@@ -32,7 +32,7 @@ bibtex: |-
   @INPROCEEDINGS{9011253,
     title={Object Fusion Tracking Based on Visible and Infrared Images Using Fully Convolutional Siamese Networks},
     author={Zhang, Xingchen and Ye, Ping and Qiao, Dan and Zhao, Junhao and Peng, Shengyun and Xiao, Gang},
-    booktitle={2019 22th International Conference on Information Fusion (FUSION)},
+    booktitle={2019 22nd International Conference on Information Fusion (FUSION)},
     year={2019},
     pages={1-8},
   }

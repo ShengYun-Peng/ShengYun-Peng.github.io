@@ -6,7 +6,7 @@ id: lrm-safety
 
 # cover
 feature-title: "Large Reasoning Models Learn Better Alignment from Flawed Thinking"
-feature-description: <b> ShengYun Peng </b>, Eric Smith, Ivan Evtimov, Song Jiang, Pin-Yu Chen, Hongyuan Zhan, Haozhu Wang, Duen Horng Chau, Mahesh Pasupuleti, Jianfeng Chi
+feature-description: <b> ShengYun Peng </b>, Pin-Yu Chen, Eric Smith, Song Jiang, Hongyuan Zhan, Haozhu Wang, Mahesh Pasupuleti, Duen Horng Chau, Jianfeng Chi
 image: /images/featured/25_lrm-safety.png
 featured: true
 feature-order: 20260831
@@ -24,14 +24,13 @@ code: https://github.com/poloclub/recap
 title: "Large Reasoning Models Learn Better Alignment from Flawed Thinking"
 authors:
   - ShengYun Peng
-  - Eric Smith
-  - Ivan Evtimov
-  - Song Jiang
   - Pin-Yu Chen
+  - Eric Smith
+  - Song Jiang
   - Hongyuan Zhan
   - Haozhu Wang
-  - Duen Horng Chau
   - Mahesh Pasupuleti
+  - Duen Horng Chau
   - Jianfeng Chi
 pdf: https://arxiv.org/abs/2510.00938
 figure: /images/papers/25_lrm-safety.png
@@ -42,7 +41,7 @@ bibtex: |-
 
     @article{peng2025large,
       title={Large reasoning models learn better alignment from flawed thinking},
-      author={Peng, ShengYun and Smith, Eric and Evtimov, Ivan and Jiang, Song and Chen, Pin-Yu and Zhan, Hongyuan and Wang, Haozhu and Chau, Duen Horng and Pasupuleti, Mahesh and Chi, Jianfeng},
+      author={Peng, ShengYun and Chen, Pin-Yu and Smith, Eric and Jiang, Song and Zhan, Hongyuan and Wang, Haozhu and Pasupuleti, Mahesh and Chau, Duen Horng and Chi, Jianfeng},
       journal={arXiv preprint arXiv:2510.00938},
       year={2025}
     }
