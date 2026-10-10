@@ -23,7 +23,7 @@ authors:
   - ShengYun Peng
   - Haekyu Park
   - Duen Horng Chau
-pdf: /papers/22_cvpr_detectordetective.pdf
+pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Vellaichamy_DetectorDetective_Investigating_the_Effects_of_Adversarial_Examples_on_Object_Detectors_CVPR_2022_paper.pdf
 figure: /images/papers/22_cvpr_detectordetective.png
 selected: false
 type: demo

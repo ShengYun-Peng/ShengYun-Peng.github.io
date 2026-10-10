@@ -11,10 +11,6 @@
   year: 2026
 
 - name: Selected for Oral presentation
-  description: UniTable is an oral presentation at NeurIPS 2024 Workshop
-  year: 2024
-
-- name: Selected for Oral presentation
   description: Self-supervised table structure recognition is an oral presentation at AAAI 2024 Workshop
   year: 2024
 

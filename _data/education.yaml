@@ -1,7 +1,11 @@
 - degree: "Ph.D. in Computer Science"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  # advisor: Duen Horng Chau
+  advisor: Duen Horng Chau
+  advisor-name: Duen Horng (Polo) Chau
+  thesis-label: Dissertation
+  thesis: "Beyond Capability: Safe & Reliable Foundation Models at Scale"
+  thesis-pdf: /papers/Anthony_PhD_Thesis.pdf
   years: "Jan. 2022 —"
   years-extra: "present"
   institution-url: https://www.gatech.edu/

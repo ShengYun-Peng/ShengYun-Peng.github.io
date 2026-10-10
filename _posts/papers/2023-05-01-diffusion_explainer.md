@@ -28,7 +28,7 @@ authors:
   - Haekyu Park
   - Haoyang Yang
   - Duen Horng Chau
-pdf: /papers/23_diffusion-explainer.pdf
+pdf: https://arxiv.org/abs/2305.03509
 demo: https://poloclub.github.io/diffusion-explainer/
 video: https://www.youtube.com/watch?v=Zg4gxdIWDds
 figure: /images/papers/23_diffusion-explainer.gif

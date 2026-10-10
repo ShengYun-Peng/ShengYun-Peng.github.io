@@ -5,13 +5,24 @@
 
 {% if degree.advisor %}
 	<div class="cv-description">
-		Advisor: {% include person.html person=degree.advisor %}
+		Advisor: <span class="cv-advisor-name">
+			{% assign advisor = site.data.people[degree.advisor] %}
+			{% if advisor.url %}<a href="{{ advisor.url }}">{{ degree.advisor-name | default: degree.advisor | escape }}</a>{% else %}{{ degree.advisor-name | default: degree.advisor | escape }}{% endif %}
+		</span>
 	</div>
 {% endif %}
 
 {% if degree.thesis %}
-	<div class="cv-description">
-		Thesis: <a href="{{ degree.thesis-link }}"><i>{{ degree.thesis }}</i></a>
+	<div class="cv-description cv-thesis">
+		{{ degree.thesis-label | default: "Thesis" }}:
+		{% if degree.thesis-link %}<a href="{{ degree.thesis-link }}">{{ degree.thesis | escape }}</a>{% else %}<span class="cv-thesis-title">{{ degree.thesis | escape }}</span>{% endif %}
+		{% if degree.thesis-pdf %}
+			<span class="pub-misc cv-thesis-links">
+				<a href="{{ degree.thesis-pdf | relative_url }}" aria-label="{{ degree.thesis-label | default: 'Thesis' }} PDF: {{ degree.thesis | escape }}">
+					<i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
+				</a>
+			</span>
+		{% endif %}
 	</div>
 {% endif %}
 
@@ -43,7 +54,7 @@
 		</a>
 	{% endif %}
 
-	{% if degree.thesis-pdf %}
+	{% if degree.thesis-pdf and degree.thesis == nil %}
 		<a href="{{ degree.thesis-pdf }}">
 			<i class="fas fa-file-pdf" aria-hidden="true"></i> Thesis
 		</a>
